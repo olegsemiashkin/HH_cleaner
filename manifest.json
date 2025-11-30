@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Action Extension",
+  "version": "1.0",
+  "description": "Выполняет действие по клику на иконку",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Выполнить действие (Ctrl+Shift+Y)"
+  }
+}
